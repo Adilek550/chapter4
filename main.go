@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 	fmt.Println("ADS")
+	fmt.Println(2)
 }
