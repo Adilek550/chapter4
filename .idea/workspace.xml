@@ -1,15 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47e752a7-b578-4643-94d2-8cbfc59a1cb8" name="Default Changelist" comment="" />
+    <list default="true" id="47e752a7-b578-4643-94d2-8cbfc59a1cb8" name="Default Changelist" comment="2">
+      <change afterPath="$PROJECT_DIR$/cmd/web/handlers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/web/helpers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/web/routers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/models/models.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/models/postgres/snippets.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/html/base.layout.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/html/footer.partial.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/html/home.page.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/static/css/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/static/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/static/img/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/static/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/static/js/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/static/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
   <component name="GOROOT" url="file://$PROJECT_DIR$/../../../../../Go" />
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1mqYYW1zJckmKuX2Ex3eJrVnVA5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -18,17 +53,35 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\go\src\awesomeProject2\ui\static\js" />
+      <recent name="C:\Users\User\go\src\awesomeProject2\ui\static\img" />
+      <recent name="C:\Users\User\go\src\awesomeProject2\ui\static\css" />
+      <recent name="C:\Users\User\go\src\awesomeProject2\ui\html" />
+      <recent name="C:\Users\User\go\src\awesomeProject2\cmd\web" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\go\src\awesomeProject2\pkg\models\postgres" />
+      <recent name="C:\Users\User\go\src\awesomeProject2\pkg\models" />
+      <recent name="C:\Users\User\go\src\awesomeProject2\pkg" />
+      <recent name="C:\Users\User\go\src\awesomeProject2\ui\static" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
@@ -67,5 +120,14 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
   </component>
 </project>
