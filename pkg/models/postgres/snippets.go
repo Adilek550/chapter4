@@ -13,7 +13,7 @@ type SnippetModel struct {
 }
 
 const (
-	insertSql = "INSERT INTO snippets (title, content, created, expires) VALUES($1, $2, $3,$4) RETURNING id"
+	insertSql = "INSERT INTO snippets (title, content, created, expires) VALUES($4, $5, $6,$7) RETURNING id"
 	select1   = "select id,title, content, created, expires from snippets where id=$1"
 	select2   = "SELECT id,title, content, created, expires from snippets order by created DESC LIMIT 10"
 )
